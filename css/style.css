@@ -1,0 +1,58 @@
+/* Fonts */
+@font-face {
+  src: url(../fonts/DMSerifDisplay-Regular.ttf);
+  font-family: 'Display';
+}
+
+@font-face {
+  src: url(../fonts/Jost-Regular.ttf);
+  font-family: 'Jost-400';
+}
+
+@font-face {
+  src: url(../fonts/Jost-Bold.ttf);
+  font-family: 'Jost-700';
+}
+
+/* Normolize */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: 0;
+  outline: 0;
+  background: 0;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Display', sans-serif;
+  font-weight: 400;
+}
+
+/* General */
+body {
+  font-family: 'Jost-400', sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
