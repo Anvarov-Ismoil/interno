@@ -56,3 +56,19 @@ body {
   width: 1200px;
   margin: 0 auto;
 }
+
+/* Header -------> */
+.header {}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .container .menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
