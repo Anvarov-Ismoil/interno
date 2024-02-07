@@ -42,6 +42,10 @@
   text-align: center;
 }
 
+.mini-content:hover{
+  background: rgb(244, 240, 236);
+}
+
 .content-wrapper {
   display: flex;
   justify-content: center;
@@ -89,6 +93,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   margin-top: 88px;
 }
 
@@ -97,12 +102,13 @@
   flex-direction: column;
   align-items: center;
   padding: 83px 0;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
-.mini-content.bcg {
-  border-radius: 30px;
-  background: rgb(244, 240, 236);
-  padding: 83px 0;
+
+.bag-content:hover{
+background: rgb(244, 240, 236);
 }
 
 .work-section {
@@ -139,10 +145,11 @@
 .concept .container {
   background: rgb(244, 240, 236);
   display: flex;
+padding:0 116px;
 }
 
 .concept .img-block img {
-  border-radius: 326px 0px 123px 0px;
+  border-radius: 123px 0px 326px 0px;
   background: rgb(196, 196, 196);
   width: 485px;
   height: 453px;
