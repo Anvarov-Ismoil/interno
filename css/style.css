@@ -65,7 +65,7 @@ body {
   width: 100%;
   max-width: 1230px;
   margin: 0 auto;
-  padding: 0 ;
+  padding: 0 15px;
 }
 
 .text {
@@ -74,6 +74,21 @@ body {
   font-family: 'Jost-400', sans-serif;
   line-height: 33px;
   color: var(--grey);
+}
+
+.btn {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Jost-400', sans-serif;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--grey);
+}
+
+.btn i {
+  color: var(--brown);
+  margin-left: 12px;
 }
 
 .btn.blue {
@@ -160,4 +175,32 @@ body {
 .hero .container .text {
   max-width: 567px;
   margin: 10px 0 20px;
+}
+
+/* Steps */
+.steps {
+  padding: 200px 0;
+}
+
+.steps .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.steps .container .step {
+  width: 358px;
+  text-align: center;
+}
+
+.steps .container .step h3 {
+  font-size: 25px;
+  line-height: 31px;
+  color: var(--blue);
+}
+
+.steps .container .step p {
+  margin: 20px 0 50px;
 }

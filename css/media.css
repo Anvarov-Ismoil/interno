@@ -37,6 +37,14 @@
   .header .container .burger {
     display: block;
   }
+
+  .steps {
+    padding: 100px 0;
+  }
+
+  .steps .container {
+    gap: 70px;
+  }
 }
 
 /* 650 */
