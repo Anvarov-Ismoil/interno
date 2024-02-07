@@ -121,6 +121,13 @@ body {
   margin-left: 10px;
 }
 
+.site-title {
+  font-size: 50px;
+  line-height: 62.5px;
+  letter-spacing: 2%;
+  color: var(--blue);
+}
+
 /* Header -------> */
 .header {
   padding: 40px 0;
@@ -203,4 +210,61 @@ body {
 
 .steps .container .step p {
   margin: 20px 0 50px;
+}
+
+/* Art */
+.art {}
+
+.art .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 75px;
+}
+
+.art .container .left {
+  width: 472px;
+}
+
+.art .container .left .site-title {
+  width: 420px;
+}
+
+.art .container .left .text {
+  margin: 35px 0 45px;
+}
+
+.art .container .left .number {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 47px;
+}
+
+.art .container .left .number .icon {
+  width: 93px;
+  height: 93px;
+  background: #F4F0EC;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.art .container .left .number .icon i {
+  color: var(--brown);
+  font-size: 30px;
+}
+
+.art .container .left .number .content .phone {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'Jost-700', sans-serif;
+  line-height: 36px;
+  color: var(--grey);
+}
+
+.art .container .left .number .content .text {
+  margin: 0;
 }

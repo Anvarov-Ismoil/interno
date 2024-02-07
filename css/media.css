@@ -1,3 +1,16 @@
+/* 1231 */
+@media(max-width: 1231px) {
+  
+  .art .container .right{
+    order: -10;
+  }
+  
+  .art .container .right img {
+    width: 550px;
+  }
+}
+
+
 /* 1150 */
 
 /* 1025 */
@@ -19,6 +32,10 @@
 
   .hero .container .btn.blue {
     padding: 20px 40px;
+  }
+  
+  .art .container .right img {
+    width: 400px;
   }
 }
 
